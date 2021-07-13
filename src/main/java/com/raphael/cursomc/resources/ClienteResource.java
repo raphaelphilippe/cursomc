@@ -1,8 +1,5 @@
 package com.raphael.cursomc.resources;
 
-//import java.util.ArrayList;
-//import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -25,14 +22,6 @@ public class ClienteResource {
 		Cliente obj = service.buscar(id);
 		return ResponseEntity.ok().body(obj);
 		
-		
-		
-		//Cliente cat1 = new Cliente(1, "Informática");
-		//Cliente cat2 = new Cliente(2, "Escritório");
-		//List<Cliente> lista = new ArrayList<>();
-		//lista.add(cat1);
-		//lista.add(cat2);
-		//return lista;
 	}
 	
 }
