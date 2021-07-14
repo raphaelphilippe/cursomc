@@ -15,7 +15,7 @@ public class ClienteService {
 	@Autowired
 	private ClienteRepository repo;
 	
-	public Cliente buscar(Integer id) {
+	public Cliente find(Integer id) {
 		
 		//Versão de código utilizada até o Java 7
 		//Cliente obj = repo.findOne(id);

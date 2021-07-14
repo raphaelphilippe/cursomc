@@ -15,7 +15,7 @@ public class PedidoService {
 	@Autowired
 	private PedidoRepository repo;
 	
-	public Pedido buscar(Integer id) {
+	public Pedido find(Integer id) {
 		
 		//Versão de código utilizada até o Java 7
 		//Pedido obj = repo.findOne(id);
